@@ -1,18 +1,11 @@
 const Foo = () => {
-    var a= 1;
-    return (
-        <div>
-            <h1>dh</h1>
-            <h1>{a}</h1>
-        </div>
-    );
+  var a = 1;
+  return (
+    <div>
+      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
+      
+    </div>
+  );
 };
 
 export default Foo;
-
-
-
-
-
-
-

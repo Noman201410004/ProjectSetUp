@@ -1,21 +1,19 @@
 import flower from "../src/assets/licensed-image.jfif";
 
-import Foo from './Components/Foo';
+import Foo from "./Components/Foo";
+import UseStateHook from "./Hook/UseStateHook";
 
 function App() {
- 
-var c= 1;
- 
-    
+  
 
   return (
     <>
-      {c}
-      <Foo title={"d"} />
+    <Foo title={"d"} />
       <img style={{ width: "200px" }} src={flower} alt="" />
-     
 
-      <h1>hel lo</h1>
+      <h1>hello</h1>
+      <Foo superLongParam="bar" anotherSuperLongParam="baz" />
+      <UseStateHook></UseStateHook>
     </>
   );
 }

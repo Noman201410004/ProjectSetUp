@@ -32,5 +32,19 @@ module.exports = {
       },
     ],
     "react/no-string-refs": "error",
+    " react/jsx-wrap-multilines": {
+      declaration: "parens",
+      assignment: "parens",
+      return: "parens",
+      arrow: "parens",
+      condition: "ignore",
+      logical: "ignore",
+      prop: "ignore",
+    },
+    "jsx-closing-bracket-location": [
+      1,
+      { selfClosing: "props-aligned", nonEmpty: "after-props" },
+    ],
+    indent: ["error", 2],
   },
 };
