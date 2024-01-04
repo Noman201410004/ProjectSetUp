@@ -11,9 +11,9 @@ var c= 1;
   return (
     <>
       {c}
-      <Foo hidden={true} />
-      <img src={flower} alt="" />
-      <img src="hello.jpg" alt=" of me waving hello" />
+      <Foo title={"d"} />
+      <img style={{ width: "200px" }} src={flower} alt="" />
+     
 
       <h1>hel lo</h1>
     </>

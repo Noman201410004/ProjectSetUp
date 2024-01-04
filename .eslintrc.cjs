@@ -31,5 +31,6 @@ module.exports = {
         'input[type="image"]': ["InputImage"],
       },
     ],
+    "react/no-string-refs": "error",
   },
 };
