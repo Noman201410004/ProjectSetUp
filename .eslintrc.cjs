@@ -19,6 +19,7 @@ module.exports = {
     ],
     "jsx-quotes": ["error", "prefer-double"],
     "no-multi-spaces": "error",
+    semi: ["error", "always"],
     "react/jsx-curly-spacing": [2, "never"],
     "jsx-a11y/alt-text": [
       2,
