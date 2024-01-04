@@ -2,11 +2,13 @@ import'./App.css'
 import Foo from './Components/Foo'
 
 function App() {
-  
+  var baz=10;
+var c= 1;
 
   return (
     <>
-      <Foo bar="bar"></Foo>
+      {c}
+      <Foo bar={baz} />
     </>
   );
 }
