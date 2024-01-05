@@ -6,9 +6,9 @@ const UseStateHook = () => {
     console.log(age)
     return (
       <div >
-        <h1>{age}</h1>
+        <h1 style={{color:"purple",marginLeft:"90px"}}>{age}</h1>
          <button onClick={()=>setAge(age+1)} style={{background:"green",color:"white",padding:"10px"}}>Age Increase</button>
-         <button onClick={()=>setAge(age-1)} style={{background:"red",color:"white",padding:"10px"}}>Age Decrease</button>
+         <button onClick={()=>setAge(age-1)} style={{background:"red",color:"white",padding:"10px",marginLeft:"5px"}}>Age Decrease</button>
       </div>
     );
 };
